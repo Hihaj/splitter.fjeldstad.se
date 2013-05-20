@@ -1,0 +1,103 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+div#page {
+	margin: 10px auto 0px auto;
+	width: 800px;
+	padding: 0px;
+}
+
+div#header {
+	background-image: url('images/shattering_glass_header.jpg');
+	background-repeat: no-repeat;
+	width: 800px;
+	height: 200px;
+	border: 3px solid #CCCCCC;
+	position: relative;
+}
+
+div#header h1 {
+	position: absolute;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	font-size: 58px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	top: 70px;
+	left: 10px;
+}
+
+div#header h2 {
+	position: absolute;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	top: 164px;
+	left: 10px;
+}
+
+div#leftColumn {
+	display: inline;
+	float: left;
+	width: 500px;
+}
+
+div#rightColumn {
+	display: inline;
+	float: right;
+	width: 280px;
+}
+
+p {
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	font-size: 13px;
+	line-height: 19px;
+	margin: 0px 0px 15px 0px;
+}
+
+p.intro {
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+	margin: 20px 0px 20px 0px;
+	color: #666666;
+}
+
+div#rightColumn p {
+	font-family: Verdana, sans-serif;
+	font-size: 10px;
+	line-height: 13px;
+}
+
+h3 {
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 20px;
+	margin: 30px 0px 5px 0px;
+}
+
+div#rightColumn h3 {
+	margin: 20px 0px 5px 0px;
+}
+
+a img {
+	border: 2px solid #CCCCCC;
+}
+
+a {
+	font-family: Verdana, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #B7972A;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #7F6922;
+}
